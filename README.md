@@ -30,7 +30,8 @@ PastaLean（Python → Lean 4 の決定的な変換器、arXiv 2610.34205）を�
 ## 実行
 
 ```sh
-scripts/translate_all.sh   # inputs/*.py を outputs/*.lean に変換し、ログと exit code を outputs/ に残す
+scripts/translate_all.sh                                        # 型検査のみ（証明は sorry 扱い）
+PROVE_FLAG=--prove-asserts OUT_SUFFIX=proved_ scripts/translate_all.sh   # 証明も探す
 ```
 
 ## 結果

@@ -1,0 +1,2 @@
+note: proofs left as `:= by taste?` for interactive solving in your editor; compile-checked with `sorry` in their place (fast). Pass --prove-asserts to search and splice concrete proofs now.
+ok: /home/developer/repos/pastalean-trial/inputs/03_count_hits.py compiles
